@@ -1,0 +1,86 @@
+▼
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main() {
+  // Biodata Saya 
+  string biodata = "                      BIODATA SAYA";
+  cout << "" << biodata << endl;
+  cout << endl;
+  
+  // garis 
+    string garis0 = "-----------------------------------------------------";
+  cout << "" << garis0 << endl;
+  
+// nama
+  string nama1 = "RIFQI";
+  string nama2 = "SYAHRIZAL";
+  string nama3 = "FADHIL";
+  string nama4 = "ALBA";
+  cout << "Nama Depan    : " << nama1 << endl;
+  cout << "Nama Tengan   : " << nama2 << " " << nama3 << endl;
+  cout << "Nama Belakang : " << nama4 << endl;
+  cout << endl;
+  cout << "Nama Lengkap  :" << nama1 << " " << nama2 << " " << nama3 << " "
+       << nama4 << endl;
+  cout << endl;
+    
+  // garis
+  string garis = "-----------------------------------------------------";
+  cout << "" << garis << endl;
+  
+  // tanggal lahir 
+  int Tanggal = 28;
+  string Bulan = "JUNI";
+  int Tahun = 2003;
+  cout << "Tanggal : " << Tanggal << endl;
+  cout << "Bulan   : " << Bulan << endl;
+  cout << "Tahun   : " << Tahun << endl;
+  cout << endl;
+  
+  // tanggal lengkap
+  cout << "Tangga Lahir Lengkap : " << Tanggal << " " << Bulan << " " << Tahun
+       << endl;
+  cout << endl;
+  
+  // garis 
+  string garis1 = "-----------------------------------------------------";
+  cout << "" << garis1 << endl;
+    
+  // alamat
+  string jl = "Jl. Flamboyan";
+  string rt = "015";
+  string rw = "007";
+  string desa = "Ciantra";
+  string kec = "Cikarang Selatan";
+  string kab = "Bekasi";
+  string prov = "Jawab Barat";
+  cout << "Jalan     : " << jl << endl;
+  cout << "RT        : " << rt << endl;
+  cout << "RW        : " << rw << endl;
+  cout << "Desa      : " << desa << endl;
+  cout << "Kecamatan : " << kec << endl;
+  cout << "Kabupaten : " << kab << endl;
+  cout << "Provinsi  : " << prov << endl;
+  cout << endl;
+  
+  // garis 
+  string garis2 = "-----------------------------------------------------";
+  cout << "" << garis2 << endl;
+  
+    
+  // saudara
+  string anak = "2";
+  string saudara = "2";
+  cout << "Anak ke-       : " << anak << endl;
+  cout << "Jumlah Saudara : " << saudara << endl;
+  cout << endl;
+  cout << "anak ke-       : " << anak << " " << "dari" << " " << saudara << " " << "saudara" << endl;
+  
+  // garis 
+    string garis3 = "-----------------------------------------------------";
+  cout << "" << garis3 << endl;
+  
+}
